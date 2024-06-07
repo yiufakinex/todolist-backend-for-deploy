@@ -34,5 +34,4 @@ build/
 
 ### Database Configuration###
 secrets.properties
-application.properties
 
