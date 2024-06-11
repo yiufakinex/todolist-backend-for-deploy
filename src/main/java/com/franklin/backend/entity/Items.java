@@ -16,7 +16,8 @@ import lombok.Setter;
 @NoArgsConstructor
 @AllArgsConstructor
 @Entity
-@Table(name = "items")
+@Table(name = "Items")
+
 public class Items {
 
     @Id
@@ -25,4 +26,13 @@ public class Items {
 
     @Column(name = "title")
     private String title;
+
+    public String getTitle() {
+        return title;
+    }
+
+    public void setTitle(String title) {
+        this.title = title;
+    }
+
 }
