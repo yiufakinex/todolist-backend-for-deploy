@@ -23,7 +23,7 @@ public class ItemsController {
     @Autowired
     private ItemsService itemsService;
 
-    @CrossOrigin(origins = "http://localhost:5173")
+    @CrossOrigin(origins = "https://todolist-frontend-cnxl.onrender.com")
 
     @GetMapping("/")
     public List<Items> getAllItems() {
